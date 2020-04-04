@@ -1,0 +1,54 @@
+<html lang="en">
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='client.js') }}"></script>
+  
+  </head>
+
+  <body>
+  
+  <div>
+    
+    <div class="center">
+    
+      <div class="title">SARS-CoV-2 Classifier</div>
+      
+        <p>WARNING!!! This tool is not medical grade.<br/>It will classify an uploaded image from lungs X-Ray Chest into NORMAL or SARS-CoV-2.</p>
+
+        <div class="content">
+
+          <div class="imghide">
+            <input id="catchimg" class="imghide" type="file" name="file" accept="image/*" onchange="catchImg(this)">
+          </div>
+
+          <button class="btnbrowseimg" id="btnbrowseimg" type="button" rel="nofollow noopener" onclick="browseImg()">Browse Image</button>
+          <button class="btndiagnose"  id="btndiagnose" type="button" onclick="Diagnose()">Diagnose</button>
+
+          <div class="lblfilename">
+            <label id="lblfilename"></label>
+          </div>
+      
+          <div>
+            <img id="dispimg" class="imghide" height="200">
+          </div>
+      
+          <div class="lblcovid">
+            <label id="lblcovid"></label>
+          </div>
+      
+          <div class="lblnormal">
+            <label id="lblnormal"></label>
+          </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  </body>
+
+</html>
