@@ -3,8 +3,8 @@
 ## Warning!, this is not a medical grade tool.
 
 
-<img src="./imgs/webapp.png" align="right"
-     alt="COVID Classifier" width="120">
+<img src="https://github.com/issaiass/SARS-CoV-2-Classifier/blob/master/imgs/webapp.PNG?raw=true" align="right"
+     alt="COVID Classifier" width="240">
 
 
 This is an example of a simple SARS-CoV-2 Classifiewer Web App.  It uses simple JS, keras, flask, as the complete framework to make a deep learning simple server based app.
@@ -20,7 +20,7 @@ Steps to start are simple:
 * **Press Diagnose** and wait for the model to be classified.
 
 <p align="center">
-  <img src="./img/runserver.png" alt="Keras Server" width="738">
+  <img src="https://github.com/issaiass/SARS-CoV-2-Classifier/blob/master/imgs/runserver.PNG?raw=true" alt="Keras Server" width="738">
 </p>
 
 I uploaded a non trained version of the model to see the functionality work in the folder 'model'
